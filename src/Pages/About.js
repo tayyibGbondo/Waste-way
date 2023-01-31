@@ -14,7 +14,7 @@ function About() {
         />
 
         <div className="text-center md:p-8 py-7">
-          <div>
+          <div className="p-5">
             <h1 className="text-2xl font-bold text-center">
               About WasteWay Cycle
             </h1>
@@ -39,7 +39,7 @@ function About() {
             <img
               src={Images.Shower}
               alt="user"
-              className="w-full md:h-[200px] object-cover rounded-2xl"
+              className="w-full md:h-[200px] object-cover rounded-2xl my-5"
             />
 
             <p>

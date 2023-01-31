@@ -11,19 +11,19 @@ const AllProducts = [
     img: Images.Bag1,
     link: "/product",
     name: "BackPack",
-    prize: "15",
+    prize: "5",
   },
   {
-    img: Images.Bag1,
+    img: Images.Bag2,
     link: "/product",
-    name: "BackPack",
-    prize: "15",
+    name: "Hard Bag",
+    prize: "8",
   },
   {
-    img: Images.Bag1,
+    img: Images.Show,
     link: "/product",
-    name: "BackPack",
-    prize: "15",
+    name: "Africa Shoe",
+    prize: "8",
   },
 ];
 

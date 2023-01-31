@@ -29,9 +29,9 @@ function Team() {
               alt="profile picture"
             />
             <div class="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Bonnie Green</div>
+              <div>Haja</div>
               <div class="text-sm font-light text-gray-500 dark:text-gray-400">
-                CEO
+                Co-founder, Sustainability <br /> and recycling
               </div>
             </div>
           </figcaption>
@@ -94,7 +94,7 @@ function Team() {
           <figcaption class="flex items-center justify-center space-x-3">
             <img
               class="rounded-full w-9 h-9"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+              src={Images.Francis}
               alt="profile picture"
             />
             <div class="space-y-0.5 font-medium dark:text-white text-left">
