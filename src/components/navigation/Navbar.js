@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Import from constant
 import Images from "../../conatants/Images";
@@ -39,12 +40,28 @@ function Navbar() {
           <div class="flex items-center">
             <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   class="text-gray-900 dark:text-white hover:underline"
                   aria-current="page"
                 >
                   Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  class="text-gray-900 dark:text-white hover:underline"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-900 dark:text-white hover:underline"
+                >
+                  Products
                 </a>
               </li>
               <li>
@@ -52,23 +69,7 @@ function Navbar() {
                   href="#"
                   class="text-gray-900 dark:text-white hover:underline"
                 >
-                  Company
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-gray-900 dark:text-white hover:underline"
-                >
-                  Team
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-gray-900 dark:text-white hover:underline"
-                >
-                  Features
+                  Donate
                 </a>
               </li>
             </ul>
