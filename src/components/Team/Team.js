@@ -70,9 +70,9 @@ function Team() {
           </blockquote>
           <figcaption class="flex items-center justify-center space-x-3">
             <img
-              class="rounded-full w-9 h-9"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-              alt="profile picture"
+              class="rounded-full w-9 h-9 border-gray-700 border-2"
+              src=""
+              alt="IMG"
             />
             <div class="space-y-0.5 font-medium dark:text-white text-left">
               <div>Abdul Razackbarbah</div>

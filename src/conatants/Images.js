@@ -8,6 +8,7 @@ import Shower from "../assets/images/show.JPG";
 import Win from "../assets/images/win.jpg";
 import Francis from "../assets/images/francis.jpeg";
 import Show from "../assets/images/shoes.png";
+import Table from "../assets/images/table.jpeg";
 
 export default {
   Logo,
@@ -20,4 +21,5 @@ export default {
   Bag2,
   Francis,
   Show,
+  Table,
 };
