@@ -58,7 +58,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/product"
                   class="text-gray-900 dark:text-white hover:underline"
                 >
                   Products

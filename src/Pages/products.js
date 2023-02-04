@@ -1,33 +1,39 @@
 import React from "react";
+//The constant Component
+import Images from "../conatants/Images";
 //flowbite Plugine
 import { Card } from "flowbite-react";
 
-//The constant Component
-import Images from "../../conatants/Images";
-
-//All Products
-const AllProducts = [
+//Data
+//
+const ProductData = [
   {
-    img: Images.Bag1,
     link: "/product",
     name: "BackPack",
     prize: "5",
+    img: Images.Bag1,
   },
   {
+    link: "/product",
+    name: "Hand bag",
+    prize: "7",
     img: Images.Bag2,
-    link: "/product",
-    name: "Hand Bag",
-    prize: "12",
   },
   {
-    img: Images.Show,
     link: "/product",
-    name: "Africa Shoe",
-    prize: "8",
+    name: "African Shoe",
+    prize: "7",
+    img: Images.Show,
+  },
+  {
+    link: "/product",
+    name: "Table",
+    prize: "9",
+    img: Images.Table,
   },
 ];
 
-function Products() {
+function products() {
   const notAvailable = () => {
     alert(
       "Product not available at the moment. Please contact (232) 77 430860"
@@ -35,16 +41,15 @@ function Products() {
   };
 
   return (
-    <div className="container">
-      <h1 className="text-3xl font-semibold text-center my-8">Our Products</h1>{" "}
-      <div className="md:flex-row flex flex-col items-center md:items-center justify-center gap-5">
-        {AllProducts.map((product) => (
-          <div className="max-w-sm w-full" key={product.name}>
-            <Card>
+    <div>
+      <div className="flex gap-3 items-center justify-center h-[400px] flex-wrap">
+        {ProductData.map((product) => (
+          <div className="max-w-sm" key={product.name}>
+            <Card className="md:w-[250px] md:h-[300px] h-[310px] w-[190px]">
               <img
                 src={product.img}
                 alt={product.name}
-                className="h-[300px] object-cover"
+                className="h-[100px] object-cover w-full"
               />
               <a href="#">
                 <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
@@ -96,16 +101,14 @@ function Products() {
                   5.0
                 </span>
               </div>
-              <div
-                className="flex items-center justify-between"
-                onClick={notAvailable}
-              >
+              <div className="flex items-center justify-between">
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">
                   ${product.prize}
                 </span>
                 <a
                   href="#"
-                  className="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="rounded-lg bg-blue-700 md:px-5 px-2 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  onClick={notAvailable}
                 >
                   Add to cart
                 </a>
@@ -114,11 +117,10 @@ function Products() {
           </div>
         ))}
       </div>
-      <h2 className="text-blue-500 text-2xl text-center my-5">
-        <a href="/product"> See All Products</a>
-      </h2>
+
+      <div></div>
     </div>
   );
 }
 
-export default Products;
+export default products;
