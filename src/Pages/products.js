@@ -28,8 +28,32 @@ const ProductData = [
   {
     link: "/product",
     name: "Table",
-    prize: "9",
+    prize: "8",
     img: Images.Table,
+  },
+  {
+    link: "/product",
+    name: "Laptop backpack",
+    prize: "23",
+    img: Images.new1,
+  },
+  {
+    link: "/product",
+    name: "Tech Backpack",
+    prize: "43",
+    img: Images.new2,
+  },
+  {
+    link: "/product",
+    name: "yellow backpack",
+    prize: "39",
+    img: Images.new3,
+  },
+  {
+    link: "/product",
+    name: "Green backpack",
+    prize: "33",
+    img: Images.new4,
   },
 ];
 

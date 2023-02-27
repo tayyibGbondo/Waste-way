@@ -9,12 +9,8 @@ function Navbar() {
     <div>
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
-          <a href="https://flowbite.com" class="flex items-center">
-            <img
-              src={Images.Logo}
-              class="h-6 mr-3 sm:h-9"
-              alt="Flowbite Logo"
-            />
+          <a href="/" class="flex items-center">
+            <img src={Images.Logo} class="h-6 mr-3 sm:h-9" alt="Waste way" />
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Waste-Way
             </span>
@@ -22,7 +18,7 @@ function Navbar() {
           <div class="flex items-center">
             <a
               href="tel:+232 77 430860"
-              class="mr-6 text-sm font-medium text-gray-500 dark:text-white hover:underline"
+              class="mr-6 hidden text-sm font-medium text-gray-500 dark:text-white hover:underline"
             >
               (232) 77 430860
             </a>
@@ -69,7 +65,7 @@ function Navbar() {
                   href="#"
                   class="text-gray-900 dark:text-white hover:underline"
                 >
-                  Donate
+                  Contact Us
                 </a>
               </li>
             </ul>

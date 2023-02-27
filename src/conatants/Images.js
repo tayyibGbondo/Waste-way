@@ -9,6 +9,10 @@ import Win from "../assets/images/win.jpg";
 import Francis from "../assets/images/francis.jpeg";
 import Show from "../assets/images/shoes.png";
 import Table from "../assets/images/table.jpeg";
+import new1 from "../assets/images/a.jpg";
+import new2 from "../assets/images/b.jpg";
+import new3 from "../assets/images/c.jpg";
+import new4 from "../assets/images/d.jpg";
 
 export default {
   Logo,
@@ -22,4 +26,8 @@ export default {
   Francis,
   Show,
   Table,
+  new1,
+  new2,
+  new3,
+  new4,
 };
